@@ -20,7 +20,7 @@ This LinkedIn bot automates the process of sending connection requests on Linked
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone git@github.com:bruak/linkedn_bot.git
    cd linkedn_bot
    ```
 
