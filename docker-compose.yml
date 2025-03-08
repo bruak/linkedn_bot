@@ -10,4 +10,4 @@ services:
       - PYTHONUNBUFFERED=1
     env_file:
       - .env
-    #restart: unless-stopped
+#restart: unless-stopped
