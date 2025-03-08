@@ -1,0 +1,13 @@
+services:
+  linkedin-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    env_file:
+      - .env
+    #restart: unless-stopped
